@@ -1,0 +1,16 @@
+# Secrets: never upload these
+.env
+.cache
+.cache-*
+
+# Personal Spotify outputs
+moosic_playlist_ids.pkl
+moosic_playlist_links.csv
+
+# Python and Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Mac
+.DS_Store
